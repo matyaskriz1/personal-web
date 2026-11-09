@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matyáš Kříž — weby, které fungují</title>
+  <meta name="description" content="Jsem Matyáš Kříž a tvořím rychlé, přehledné a dobře vypadající weby. Podívejte se, jak pracuju a co pro vás můžu udělat.">
+  <meta property="og:title" content="Matyáš Kříž — weby, které fungují">
+  <meta property="og:description" content="Rychlé, přehledné a dobře vypadající weby. Od prvního nápadu až po spuštění.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f1115">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23ff6a3d'/><text x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='16' fill='white'>MK</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Přeskočit na obsah</a>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="logo" href="#top" aria-label="Domů">MK<span>.</span></a>
+      <nav aria-label="Hlavní navigace">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Otevřít menu">
+          <span></span><span></span>
+        </button>
+        <ul class="nav__menu" id="menu">
+          <li><a href="#o-mne">O mně</a></li>
+          <li><a href="#proces">Jak pracuju</a></li>
+          <li><a href="#sluzby">Co dělám</a></li>
+          <li><a href="#projekty">Projekty</a></li>
+          <li><a class="btn btn--small" href="#kontakt">Napište mi</a></li>
+        </ul>
+      </nav>
+      <button class="theme" aria-label="Přepnout světlý/tmavý režim" title="Přepnout režim">
+        <svg class="theme__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="theme__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow"><span class="dot"></span> Volný na nové projekty</p>
+          <h1>Ahoj, jsem Matyáš.<br><span class="grad">Dělám weby, které fungují.</span></h1>
+          <p class="lead">Navrhuju a programuju rychlé, přehledné weby pro lidi, firmy a projekty, které chtějí na internetu vypadat dobře a&nbsp;hlavně přinášet výsledky.</p>
+          <div class="hero__cta">
+            <a class="btn" href="#kontakt">Chci web</a>
+            <a class="btn btn--ghost" href="#proces">Jak pracuju →</a>
+          </div>
+        </div>
+
+        <div class="hero__code reveal" aria-hidden="true">
+          <div class="window">
+            <div class="window__bar"><i></i><i></i><i></i><span>matyas.js</span></div>
+<pre><code><span class="k">const</span> <span class="v">matyas</span> = {
+  <span class="p">role</span>: <span class="s">"webový vývojář"</span>,
+  <span class="p">baví</span>: [<span class="s">"design"</span>, <span class="s">"kód"</span>, <span class="s">"detaily"</span>],
+  <span class="p">web</span>: {
+    <span class="p">rychlý</span>: <span class="b">true</span>,
+    <span class="p">responzivní</span>: <span class="b">true</span>,
+    <span class="p">přístupný</span>: <span class="b">true</span>,
+  },
+  <span class="f">napiš</span>() {
+    <span class="k">return</span> <span class="s">"pojďme něco vytvořit"</span>;
+  },
+};<span class="caret"></span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- O MNĚ -->
+    <section class="section" id="o-mne">
+      <div class="container about">
+        <div class="about__photo reveal">
+          <!-- Sem dej svou fotku: <img src="foto.jpg" alt="Matyáš Kříž"> -->
+          <div class="photo-placeholder">MK</div>
+        </div>
+        <div class="about__text reveal">
+          <p class="section__label">01 — O mně</p>
+          <h2>Kdo jsem</h2>
+          <p>Jmenuju se <strong>Matyáš Kříž</strong> a weby mě baví od chvíle, kdy jsem poprvé zjistil, že pár řádků kódu dokáže v prohlížeči vykouzlit cokoliv. Z koníčka se postupně stala práce, a tak dnes pomáhám ostatním dostat jejich nápady na internet.</p>
+          <p>Nejvíc mě baví spojení dvou světů: <strong>designu</strong>, který je na první pohled příjemný, a&nbsp;<strong>kódu</strong>, který je čistý, rychlý a&nbsp;dá se na něm dál stavět. Nedělám weby „na jedno použití“. Dělám je tak, aby vám sloužily dlouho.</p>
+          <ul class="facts">
+            <li><span class="facts__num" data-count="20">20</span><span>+ dokončených webů</span></li>
+            <li><span class="facts__num" data-count="100">100</span><span>Lighthouse skóre, na které cílím</span></li>
+            <li><span class="facts__num" data-count="24">24</span><span>h na odpověď na váš e-mail</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCES -->
+    <section class="section section--alt" id="proces">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__label">02 — Jak pracuju</p>
+          <h2>Od nápadu ke spuštěnému webu</h2>
+          <p class="section__sub">Žádná černá skříňka. V každém kroku víte, co se děje, kolik to stojí a&nbsp;kdy to bude hotové.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">1</span>
+            <h3>Poznáme se</h3>
+            <p>Začínáme krátkým hovorem nebo kávou. Zjistím, kdo jste, komu je web určený a&nbsp;čeho má dosáhnout. Na konci dostanete jasnou nabídku s&nbsp;cenou a&nbsp;termínem.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">2</span>
+            <h3>Struktura a obsah</h3>
+            <p>Navrhnu, jaké stránky web potřebuje a&nbsp;co na nich bude. Dobrý web začíná u&nbsp;obsahu, ne u&nbsp;barviček. Pomůžu vám s&nbsp;texty i&nbsp;s&nbsp;tím, co návštěvník musí najít jako první.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">3</span>
+            <h3>Design</h3>
+            <p>Připravím vizuální návrh, který sedí k&nbsp;vaší značce. Uvidíte ho dřív, než napíšu první řádek kódu, a&nbsp;společně ho doladíme, dokud nebude přesně podle vás.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">4</span>
+            <h3>Vývoj</h3>
+            <p>Web naprogramuju s&nbsp;důrazem na rychlost, mobily a&nbsp;přístupnost. Průběžně posílám odkaz na rozpracovanou verzi, takže můžete sledovat, jak web roste.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">5</span>
+            <h3>Testování a spuštění</h3>
+            <p>Otestuju web na různých zařízeních a&nbsp;prohlížečích, nastavím doménu, SEO základy a&nbsp;analytiku. Pak ho společně pustíme do světa.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">6</span>
+            <h3>Péče po spuštění</h3>
+            <p>Spuštěním to nekončí. Ukážu vám, jak si web upravovat, a&nbsp;když budete potřebovat změnu nebo novou funkci, jsem tu.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PRINCIPY -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__label">03 — Na čem mi záleží</p>
+          <h2>Moje principy</h2>
+        </div>
+        <div class="principles">
+          <article class="card reveal">
+            <div class="card__icon">⚡</div>
+            <h3>Rychlost</h3>
+            <p>Každá sekunda načítání stojí návštěvníky. Optimalizuju obrázky, kód i&nbsp;fonty, aby se web načetl skoro okamžitě.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">📱</div>
+            <h3>Mobil na prvním místě</h3>
+            <p>Většina lidí přijde z&nbsp;telefonu. Web proto navrhuju nejdřív pro malé obrazovky a&nbsp;až pak pro desktop.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">♿</div>
+            <h3>Přístupnost</h3>
+            <p>Web má být použitelný pro každého, i&nbsp;pro lidi se čtečkou obrazovky nebo jen s&nbsp;klávesnicí.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">🔍</div>
+            <h3>Vidět na Googlu</h3>
+            <p>Správná struktura, metadata a&nbsp;rychlost jsou základ SEO. Řeším je od začátku, ne až na konci.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">🧹</div>
+            <h3>Čistý kód</h3>
+            <p>Píšu kód, kterému rozumí i&nbsp;někdo jiný než já. Web se dá snadno rozšířit a&nbsp;nezastará za rok.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">🤝</div>
+            <h3>Férová komunikace</h3>
+            <p>Mluvím lidsky, ne v&nbsp;technických zkratkách. Cenu a&nbsp;termín znáte předem a&nbsp;žádná překvapení na faktuře.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLUŽBY + TECHNOLOGIE -->
+    <section class="section section--alt" id="sluzby">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__label">04 — Co dělám</p>
+          <h2>S čím vám můžu pomoct</h2>
+        </div>
+        <div class="services">
+          <article class="service reveal">
+            <h3>Prezentační weby</h3>
+            <p>Web pro firmu, živnostníka, kavárnu nebo osobní značku. Jasně řekne, kdo jste a&nbsp;proč se vám ozvat.</p>
+          </article>
+          <article class="service reveal">
+            <h3>Landing pages</h3>
+            <p>Jedna stránka s&nbsp;jedním cílem: prodat produkt, nasbírat registrace nebo představit akci.</p>
+          </article>
+          <article class="service reveal">
+            <h3>Portfolia</h3>
+            <p>Pro fotografy, designéry a&nbsp;další tvůrce. Vaše práce v&nbsp;hlavní roli, web jen v&nbsp;té vedlejší.</p>
+          </article>
+          <article class="service reveal">
+            <h3>Redesign a úpravy</h3>
+            <p>Máte starý web, který je pomalý nebo nefunguje na mobilu? Oprášíme ho, nebo postavíme znovu a&nbsp;lépe.</p>
+          </article>
+        </div>
+
+        <div class="stack reveal">
+          <h3>Technologie, se kterými pracuju</h3>
+          <ul class="tags">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>TypeScript</li>
+            <li>React</li><li>Next.js</li><li>Astro</li><li>Tailwind CSS</li>
+            <li>Figma</li><li>Git &amp; GitHub</li><li>WordPress</li><li>Vercel / Netlify</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJEKTY -->
+    <section class="section" id="projekty">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__label">05 — Projekty</p>
+          <h2>Vybraná práce</h2>
+          <p class="section__sub">Pár projektů, na kterých jsem pracoval.</p>
+        </div>
+        <div class="projects">
+          <!-- Uprav podle svých skutečných projektů -->
+          <a class="project reveal" href="#" aria-label="Projekt 1">
+            <div class="project__thumb project__thumb--1"><span>Projekt 1</span></div>
+            <div class="project__body">
+              <h3>Název projektu</h3>
+              <p>Krátký popis: pro koho to bylo, co bylo cílem a&nbsp;jak to dopadlo.</p>
+              <ul class="tags tags--small"><li>Astro</li><li>Tailwind</li></ul>
+            </div>
+          </a>
+          <a class="project reveal" href="#" aria-label="Projekt 2">
+            <div class="project__thumb project__thumb--2"><span>Projekt 2</span></div>
+            <div class="project__body">
+              <h3>Název projektu</h3>
+              <p>Krátký popis: pro koho to bylo, co bylo cílem a&nbsp;jak to dopadlo.</p>
+              <ul class="tags tags--small"><li>Next.js</li><li>React</li></ul>
+            </div>
+          </a>
+          <a class="project reveal" href="#" aria-label="Projekt 3">
+            <div class="project__thumb project__thumb--3"><span>Projekt 3</span></div>
+            <div class="project__body">
+              <h3>Tento web</h3>
+              <p>Můj osobní web. Čisté HTML, CSS a&nbsp;JavaScript, bez frameworku, rychlý a&nbsp;přístupný.</p>
+              <ul class="tags tags--small"><li>HTML</li><li>CSS</li><li>JS</li></ul>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section section--contact" id="kontakt">
+      <div class="container contact reveal">
+        <p class="section__label">06 — Kontakt</p>
+        <h2>Máte nápad na web?<br><span class="grad">Pojďme ho postavit.</span></h2>
+        <p class="lead">Napište mi pár vět o tom, co potřebujete. Ozvu se do 24 hodin a&nbsp;první konzultace je zdarma.</p>
+        <!-- Nahraď svým e-mailem -->
+        <a class="btn btn--big" href="mailto:ahoj@example.com">ahoj@example.com</a>
+        <ul class="socials">
+          <li><a href="https://github.com/matyaskriz1" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Matyáš Kříž</p>
+      <p>Ručně napsáno v HTML, CSS a JS. <a href="#top">Nahoru ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
